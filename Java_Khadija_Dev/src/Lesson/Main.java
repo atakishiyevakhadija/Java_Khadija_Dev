@@ -44,5 +44,16 @@ public class Main {
         int l = 5;
         l %= 3;
         System.out.println(l);
+
+        int[] nums = {99, 109, 200};
+        System.out.println(nums[0] > 100);
+        System.out.println(nums[1] >= 100);
+        System.out.println(nums[2] == 200);
+        boolean isGreater100 = nums[1] >= 100;
+        System.out.println(isGreater100);
+
+
+
+
     }
 }
