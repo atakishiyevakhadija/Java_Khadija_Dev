@@ -32,6 +32,8 @@ public class MainUser {
             System.out.println("Вы несовершеннолетний, но из Москвы");
         } else if (age > 30 && from_sanktpeterburq) {
             System.out.println("Вы старше 30 лет и не из Питера");
+        } else {
+            System.out.println("Baku");
         }
 
         boolean voyna_i_mir = false;
