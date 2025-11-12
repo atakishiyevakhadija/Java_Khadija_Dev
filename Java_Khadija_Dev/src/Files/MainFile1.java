@@ -1,9 +1,10 @@
 package Files;
 
 import java.io.File;
+import java.io.IOException;
 
 public class MainFile1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         File myFile = new File("C:\\Users\\HP\\Desktop\\papka");
         File folder1 = new File("C:\\Users\\HP\\Desktop\\papka\\Folder-1");
         File txtFile = new File("C:\\Users\\HP\\Desktop\\papka\\Folder-1\\HelloFromFolder-1.txt");
