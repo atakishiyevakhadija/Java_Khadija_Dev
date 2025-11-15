@@ -27,7 +27,7 @@ public class ExceptionTest {
             System.out.println("Always runs");
         }
 
-        int c = 5;
+        int c = -7;
         try{
             System.out.println(c);
         } catch (Exception e) {
