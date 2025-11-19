@@ -23,5 +23,14 @@ public class CastingMain {
         byte b1 = (byte)s1;
 
         System.out.println(b1);
+
+        char c = '~';
+        int i = c + 10;
+        short s2 = (short) i;
+
+        System.out.println(s2);
+
+
+
     }
 }

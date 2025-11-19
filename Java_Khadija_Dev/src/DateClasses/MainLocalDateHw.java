@@ -15,6 +15,5 @@ public class MainLocalDateHw {
         System.out.println(ld.minusWeeks(3));
         System.out.println(ld.minusMonths(2));
         System.out.println(ld.minusYears(1));
-        System.err.println("Hello");
     }
 }
